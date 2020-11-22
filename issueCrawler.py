@@ -26,7 +26,6 @@ HEADERS = {
     "Authorization": "token f4ca57fbcd8c27db46b77abb454f8bca4f66a324"
 }
 TIMEOUT = 10
-PROXYURL = "http://svip.kdlapi.com/api/getproxy/?orderid=930490700632897&num=100&protocol=2&method=1&sep=1"
 
 def crawlComments(issuesID):
     '''
@@ -91,7 +90,7 @@ def dealWithFailed():
 
 def main2():
     
-    for i in range(1248, 2478):
+    for i in range(1, 2478):
         flag = False
         count = 1
         while not flag:
@@ -112,27 +111,6 @@ def main2():
 
 if __name__ == "__main__":
     # main()
-    # r = requests.get(PROXY)
-    # r = requests.get(PROXYURL)
-    # ips = r.text.split()
-
-    # while True:
-    #     ip = random.choice(ips)
-    #     print(ip)
-    #     proxies = {
-    #     "http": ip,
-    #     "https": ip
-    #     }
-    #     try:
-    #         r = requests.get("https://api.github.com/repos/junit-team/junit5/issues",
-    #                  headers=HEADERS, proxies=proxies, timeout=TIMEOUT)
-    #     except Exception as e:
-    #         print(e)
-    #         continue
-    #     if r.status_code == 200:
-    #         break
-    # print(r.status_code)
-    # print(r.text)
     # main2()
     dealWithFailed()
     # crawlComments(1)
