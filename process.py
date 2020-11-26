@@ -26,14 +26,14 @@ issue编号是number
 
 import json
 # 读入comments文件
-f = open("comments.json", "r")
+f = open("comments.json", "r", encoding="utf-8")
 comments = json.load(f)
 f.close()
 commentsKeys = ['url', 'html_url', 'issue_url', 'id', 'node_id',
                 'user', 'created_at', 'updated_at', 'author_association',
                 'body', 'performed_via_github_app']
 # 读入issues文件
-f = open("issues.json", "r")
+f = open("issues.json", "r", encoding="utf-8")
 issues = json.load(f)
 f.close()
 issuesKeys = ['url', 'repository_url', 'labels_url',
@@ -171,7 +171,7 @@ def outputBody(targets, outPath="out.md"):
     Returns:
     
     '''
-    f = open(outPath, "w")
+    f = open(outPath, "w", encoding="utf-8")
     count = 1
     for each in targets:
         body = each["body"]
