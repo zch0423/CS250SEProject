@@ -1,0 +1,248 @@
+,number,title
+1,357,Jupiter engine does not invoke 'afters' if exception is thrown by test or 'befores'
+7,1896,Custom URLClassLoader is not closed
+16,1603,@DisabledOnOs does not work on Solaris
+26,1438,JupiterTestEngine should log discovery errors instead of aborting the entire test plan
+28,1592,JUnit Jupiter Assumptions do not work in @BeforeAll methods
+48,253,Apply InstancePostProcessor extensions for every test instance
+57,1642,Do not throw NPE in assertLinesMatch() if actualLine is null
+87,1547,Ship picocli license with junit-platform-console
+113,1510,DiscoverySelector implementations are missing custom equals() and hashCode()
+121,1286,"Make dependency on ""javax.script"" optional"
+132,1506,"ClassSource implementation is broken regarding equals(), hashCode(), and precondition"
+140,2003,Some published artifacts contain module-info.class instead of module-info.java
+141,402,Failure in container does not fail build with JUnit Gradle plugin
+148,1044,Remove Class-Path attribute from standalone JAR manifest
+149,1414,Change to assertThrows in #1394 makes some existing call sites ambiguous
+154,639,Make Gradle incremental build work
+166,1697,@ResourceLock should be usable on test templates
+175,971,Static @BeforeEach method causes entire test plan to abort
+218,1567,TestInstanceFactory on enclosing class is not called for @Nested test class
+244,208,Extensions registered within test class hierarchy are ordered bottom-up instead of top-down
+246,658,AssertionFailedError interrupts test tree in Console and Gradle
+250,1727,@RegisterExtension field is silently ignored if null at evaluation time
+258,2222,"Broken Link in User Guide, Example Projects"
+261,766,Rename methods in TestTemplateInvocationContextProvider
+264,1265,Vintage Engine mistakenly executes test methods for non-included/excluded tags
+287,398,Cannot build JUnit 5 on Microsoft Windows
+290,1859,Overloaded assertions fail for Kotlin
+293,727,Properly decode jar file URI with spaces in its path
+296,2408,Evaluate argument length only when argument is not null
+305,1048,Implementation of AbstractExtensionContext#getRoot is wrong
+306,91,Assertions.assertAll() should not wrap checked exceptions
+310,634,Add details parsing fix and tests.
+312,264,DefaultLauncher should require a non-empty list of engines
+319,1225,CDATA end marker in exception message of failed test must not break XML output
+331,376,Update MockitoExtension example in User Guide
+333,726,Bug report: Exception thrown when building :junit-jupiter-engine on Windows 7
+340,819,Class loading by name is not supported for multidimensional arrays
+347,730,TestTemplate methods detection is missing
+359,272,Overhaul exception handling in MethodFinder
+375,1531,Missing vertical bars in console tree
+381,659,Vintage engine does not report multiple errors collected by ErrorCollector
+385,2171,TempDir fails to cleanup if directory was made read-only
+394,1566,Nested PER_METHOD inside PER_CLASS should call TestInstanceFactory for enclosing class
+426,474,Classpath scanning eagerly loads classes unnecessarily
+427,2075,"Fix using enforcedPlatform(""org.junit:junit-bom:5.6.0-M1"")"
+439,136,junit4-runner: When skipping a container all leaves must be reported as ignored
+445,589,Unable to discover 2 methods in the same class
+451,2405,Argument truncation breaks parameterized test with parameter having null toString
+500,1792,JMockit teardown no longer works as before
+518,1511,Parallel execution and @TestInstance(PER_CLASS) result in concurrency issues for instance fields mutated in test and lifecycle methods
+525,2106,[ReflectionUtils] Use class' classloader to load method params
+535,1546,Kotlin extension function ArgumentsAccessor.getAs cannot be imported
+557,1478,Fix broken tests in DefaultParallelExecutionConfigurationStrategyTests
+558,1182,Wrong name and class name in XML report for parameterized tests
+566,1643,"When using parallel execution, Callback methods/extensions should be called after all dynamic tests of a @TestFactory method are finished"
+577,252,Apply InstancePostProcessor extensions for every test instance
+583,1710,Overloaded assertions should work from Groovy
+590,478,ExtensionContext.Store is not thread-safe
+600,1069,ExpectedExceptionSupport causes exceptions to be silently ignored
+609,1252,Ensure test classes cannot be private
+617,1897,Close custom URLClassLoader
+621,998,Fix thread-safety issue in ExtensionValuesStore
+637,2249,Detecting cycles in inner class hierarchies throws exceptions even for classes not marked as @Nested
+656,1432,Investigate warning printed when compiling Kotlin code
+662,465,Tests in default package do not get picked up via classpath scanning
+666,1648,Wait for dynamic tests before finishing test factory
+684,2033,Module org.junit.platform.launcher does not read module java.logging
+686,598,Prevent Java 9 on Travis CI from failing
+690,1865,"Executing pretty small number of dynamic tests (with ""large"" Executable) results in OutOfMemoryError"
+697,1234,Setting launcher main class name to an empty string breaks test execution on Linux
+704,625,@TestFactory methods should evaluate ContainerExecutionCondition extensions instead of TestExecutionCondition extensions
+737,1019,JUnit Platform Surefire Provider does not distinguish between failure and error
+746,1367,Surefire can't find class `org.apache.maven.plugin.surefire.log.api.ConsoleLogger`
+751,799,AsciiDoctor task does not support Rouge on MS Windows
+755,776,Do not execute abstract tests in VintageTestEngine
+760,351,TravisCI can't execute even assemble when org.junit.platform.gradle.plugin is attached
+762,701,Console standalone jar does not come alone
+773,1605,PR: Fix Solaris OS detection for @[Enabled|Disabled]OnOs
+779,2357,Report disabled TestTemplate methods to TestWatchers
+810,486,DynamicTest.stream does not support checked exceptions
+820,2438,junit-platform-commons 1.7.0 does not contain MANIFEST.MF as first JAR entry
+822,2316,Always call pre-destroy callbacks if instance was created
+825,1490,"Kotlin extension function ArgumentsAccessor.get<T> is unusable, i.e.compiled to private"
+826,1185,Introduce Details.SUMMARY and mute output in mode NONE
+840,1404,Dependency Diagram not rendered in User Guide
+866,384,JUnit Platform Surefire provider ignores purely dynamic test classes
+899,2455,ExtensionContext.Store#getOrComputeIfAbsent invokes the defaultCreator twice if the defaultCreator throws an exception
+907,1296,Null elements (excepts the first one) in @CsvSource are interpreted as empty elements
+927,516,Cannot select default method by fully qualified method name
+940,1690,junit-platform-suite-api should not have a dependency on junit-platform-commons
+953,2004,JupiterTestEngine crashes if JUnit 4 is on the classpath but Hamcrest is not
+974,1501,Use correct class for method-based test descriptors
+981,2157,Assertions.assertIterableEquals overflows the stack
+982,556,Configure Eclipse plugin to include JOpt Simple in generated .classpath file
+988,385,Fix Surefire plugin group ID in User Guide
+1004,1686,Concurrency issue with resolving parameters in test methods using the SpringExtension
+1017,1956,Fix discovery of inherited nested classes
+1034,1491,Memory issues with concurrent ParameterizedTest
+1052,1096,JUnit 5 does not report test when run with maven surefire and console logging is enabled
+1083,1741,Issues/1710 groovy assertions fixes
+1089,429,Eliminate NPE when TestEngine's discovery() method returns null
+1092,1487,Build broken on 11-ea+20
+1115,1673,Navigating to search results broken in snapshots Javadocs
+1117,1366,Tag Expressions with spaces do not work with Surefire provider
+1122,2264,Fix selecting Spock methods via MethodSelector
+1123,1018,Fix selection of method from JUnit 4 parameterized test
+1143,366,JUnitPlatformTestTree does not add dynamic containers to test plan
+1149,1777,Exception thrown from TestExecutionListener fails the test plan
+1159,1665,Cannot provide multidimensional array as argument with @MethodSource
+1162,2049,Doubly nested test class is not usable with EventConditions#nestedContainer in Test Kit
+1175,576,Gradle plugin JUnitPlatformExtension.platformVersion should default to plugin version
+1177,825,MethodSelector returns null for parameter types
+1181,599,Regression: assertThrows should not use wildcard for expected exception type
+1187,1130,Maven surefire provider NPE w/ the Spek TestEngine
+1192,2209,TestInstancePreDestroyCallback does not follow the wrapping behavior of callbacks in lifecycle PER_CLASS
+1195,872,ParameterResolutionException when non-String arguments are used
+1196,171,JUnit 4 interoperability
+1203,937,Spock tests with @Unroll are not supported by Vintage engine
+1206,1576,Regression: assertThrows() ThrowingSupplier variants break existing code
+1227,2248,"Execution of Vintage Tests fail with ""displayName must not be null or blank"""
+1231,833,ParameterizedTestParameterResolver conflicts with parameterized @BeforeEach
+1239,976,ReflectionUtils considers locally overloaded default methods as overridden
+1248,631,Task inputs for junitPlatformTest are broken
+1251,148,Surefire report displays wrong test count
+1258,2288,Incorrect Javadoc in BeforeTestExecutionCallback
+1274,1148,JUnit 4 Migration Support incorrectly registers JupiterTestEngine via ServiceLoader
+1283,2158,Fix stack overflow error in assertIterableEquals
+1290,298,BUG: Post Discovery Filtering fails when an engine has no test descriptor to filter from
+1301,1666,Exception thrown by a static @RegisterExtension field is swallowed
+1303,1236,Fixes for XML reporting
+1309,349,Store.getOrComputeIfAbsent() shadows values from parent store
+1311,719,Fix regression for class hierarchies without synthetic methods
+1319,1758,@Execution and @ResourceLock should be @Inherited annotations
+1329,1563,AssertThrows curiosity when supplier should return a Stream (in Eclipse)
+1331,1133,Treat non-inherited composed annotations for inherited annotations as inherited
+1337,488,java.lang.ClassCastException: sun.nio.fs.WindowsPath cannot be cast to java.io.File
+1345,1430,Fix determineFullyQualifiedClassName() when ZipPath.relativize() returns paths like ../foo
+1348,308,Gradle plugin must not disable TestNG tests
+1351,1125,Classpath is too long 206 error
+1356,888,URL encode reserved characters in UniqueId segment strings
+1358,1719,Use fully-qualified class name as legacy reporting name for Vintage tests
+1383,514,DisabledCondition fails to unwrap Optional element when generating reason
+1394,2379,Launcher should fail with a descriptive error message when the same TestPlan is executed twice
+1408,810,UniqueId.parse fails for methods with array type parameters
+1420,390,Regression: Extension must not be registered if already registered for parent context
+1451,152,the spec failed because the path in args is OS dependent
+1466,781,Static inner classes should be considered as a potential JUnit4 test classes
+1468,1406,Unexpected behavior with inheritance and -Dtest with Surefire
+1482,2251,Avoid inner class cycle detection for non-matching predicate
+1494,1646,Set correct class loader in ForkJoinPoolHierarchicalTestExecutorService
+1517,168,MethodInvoker.resolveParameters() must validate resolved parameter types
+1520,1345,Annotation lookup on @Nested constructor parameter fails if test class is compiled with JDK 8
+1530,2355,@ParameterizedTest does not fire any events in TestWatcher
+1555,647,Support bridged methods
+1559,702,Introduce junit-platform-console-standalone module
+1564,978,Overridden interface default methods are not considered overridden
+1567,997,Fix Gradle consumption of junit-jupiter-engine
+1568,1313,Failures in lifecycle methods should take precedence over TestAbortedException
+1573,1578,OutOfMemoryError in test suite when upgrading from JUnit 5.2 to 5.3
+1575,1128,Difference between JUnit 4 and Jupiter when using rules and ExternalResourceSupport
+1590,1714,"@ParameterizedTest name only supports String formatters (no numbers, etc) "
+1598,743,Display names must not be allowed to be blank
+1603,1647,Set context class loader parallel execution mode
+1617,1493,DiscoverySelectors#selectPackage does not select packages from JAR
+1627,578,Error while running junitPlatformTest Gradle task
+1628,1305,Bug: AfterAllCallback extension hides container failure
+1637,1954,Regression: discovery for @Nested test classes with same superclass no longer works
+1660,1000,JUnit 5 RC2 source JARs downloaded from Maven contain each file twice
+1663,387,Regression: Refer to `ConsoleLauncher` instead of `ConsoleRunner` in shell scripts
+1676,942,Ensure that tags are trimmed
+1681,684,"Close dynamic test streams, fixes #683"
+1692,954,Support primitive array types as argument providers
+1718,2051,Support multiple nesting levels with EventConditions#nestedContainer in Test Kit
+1719,450,Impossible to select method by UID if method accepts array or primitive parameters
+1721,1387,Unicode characters in Javadoc displayed as \u....
+1736,1489,FilePosition.fromQuery() fails if any query parameter has a non-integer value
+1742,923,Improperly configured @ParameterizedTest should fail instead of being disabled
+1765,173,Parameterized tests: JavaSource doesn't contain method
+1766,523,@BeforeEach & @AfterEach methods are not invoked using extensions registered at the test method level
+1767,2122,Make ThrowableCollector.toTestExecutionResult() public
+1789,1470,Rename file to match class name
+1800,1688,Interrupted test cases cause random failures with thread reuse
+1833,958,`gradle dependencyUpdates` fails with an exception
+1843,667,Continue the tree structure across line breaks
+1861,2113,ThrowableCollector.toTestExecutionResult() is package private
+1870,1103,Disabled test classes should not be eagerly instantiated with PER_CLASS lifecycle mode
+1872,1800,JUnit5 5.4.0 broke Android support
+1873,284,JUnit5Plugin does not find test classes after 'gradle assemble'
+1891,953,Cannot supply primitive array to a @ParameterizedTest
+1893,729,Classes containing @TestTemplate methods are detected as Test classes
+1903,396,MutableTestExecutionSummary fails to print actual exception type
+1933,2410,StringUtils.nullSafeToString returns null if toString() returns null
+1941,338,Always use status code on exit.
+1954,969,"Cannot select parameterized interface default method by ""fully qualified method name"""
+1965,206,Unable to extend an abstract class for my test classes
+1966,2312,preDestroyTestInstance not able to get test instance from context if postProcessTestInstance failed
+1970,1640,AssertLinesMatch NullPointerException during FastForward evaluation
+1971,894,"Gradle ""clean build"" failure due to deprecated ""junit-jupiter-migration-support"""
+1997,1343,JUnit Jupiter @Nested tests do not run when selecting enclosing class with Surefire
+2013,586,Error with 5.0.0-M3 in IntelliJ
+2028,1528,Fixing concurrent access issue in TreePrintingListener
+2032,288,Surefire Plugin Fails
+2042,1699,User Guide does not include all published APIs in Experimental/Deprecated sections
+2047,1158,Сlass-level @Tag annotation is not inherited
+2056,549,Selecting one method in JUnit 4 parameterized test has no effect - test method is not executed
+2070,226,Repeatable annotations are not found on interfaces
+2115,318,Assertions.assertEquals() should not check identity
+2116,1836,Regression: Parameterized test written in Kotlin fails after upgrade to v5.4.0
+2119,2430,PreDestroy callback is not invoked for enclosing instances of nested classes
+2133,1436,Searching for nested test classes fails if class file format is invalid
+2139,477,Non-standard method names are not supported for discovery selection
+2154,1877,Missing opens directives in module descriptors
+2155,359,Jupiter engine does not invoke 'after alls' if exception is thrown by 'before alls'
+2156,1524,Inconsistent output from TreePrinter in ConsoleLauncher with parallel test execution
+2160,2021,JUnit5-Vintage produces duplicate TestIdentifiers when running JUnit3 suites with duplicate test names
+2163,1318,Dependency leak with maven-failsafe-plugin
+2164,1748,TempDirectory breaks constructor parameter resolution
+2166,565,Classpath scanner should not load JDK 9 module-info.class
+2178,1460,AfterAllCallback should not be invoked if exception is thrown by constructor when using @TestInstance(PER_CLASS)
+2187,1175,"ModuleUtils should scan ""current"" module layer"
+2207,460,ColoredPrintingTestListener fails to print actual exception type
+2222,749,"Invoke TestExecutionExceptionHandlers in reversed order, analogous to After*Callbacks"
+2223,1837,Fix regression when creating human-readable test names
+2237,1026,JupiterTestEngine attempts to resolve unique IDs that belong to other engines
+2241,1533,Lifecycle.PER_CLASS ⇒ ExecutionMode.SAME_THREAD
+2261,1289,Cannot access `package-list` in published Javadoc
+2267,2299,Inherited @BeforeEach method executed on wrong instance for @Nested class
+2270,677,Vintage stores multiple failures using MultipleFailuresError
+2275,2149,Bad version range in Import-Package
+2276,118,ClassNameFilter should not be used on @Nested test classes
+2299,92,Test execution exceptions are not supplied to extensions
+2303,266,Ensure JAR manifests are not regenerated unless there are code changes
+2309,1179,Do not print summary for 'details=none' in Gradle plugin unless there are errors
+2315,1600,ConsoleLauncher: VerboseTreePrintingListener - format specifier in exception message throws java.util.MissingFormatArgumentException
+2325,1591,AssertAll#assertAll() is not threadsafe
+2334,1084,Vintage engine does not apply PackageNameFilters consistently
+2341,1712,JUnit BOM should not include scope declarations for managed dependencies
+2343,495,@AfterEach methods are not executed bottom-up within a class hierarchy
+2345,600,PackageUtils do not work with modules on Java 9
+2370,207,Repeatable annotations are not discovered on superclasses
+2376,591,Add new TestDescriptors to existing parents
+2386,769,VintageTestEngine attempts to execute abstract test classes
+2423,1285,Vintage 5.1.0-RC1 executes @BeforeClass before [runner:VintageBeforeClass$VintageTest] event
+2428,417,Concurrency issues when adding/registering dynamic tests
+2453,401,Classpath scanning fails for malformed class names
+2458,1801,Test with @TempDir fails with NoSuchFileException if the tempDir is deleted inside the test
+2459,285,Gradle plugin should not use JUnit 4 Engine when runJunit4 is false
