@@ -1,8 +1,9 @@
-*
+*.*
 !*.py
 !*.ipynb
-!/jar
-!/JunitTest
 !*.md
 !.gitignore
+
+/issues
+/comments
 
