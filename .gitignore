@@ -1,9 +1,8 @@
-*.*
-!*.py
-!*.ipynb
-!*.md
-!.gitignore
-
-/issues
 /comments
+/issues
+*.csv
+*.docx
+*.pptx
+*.xlsx
+*.txt
 
